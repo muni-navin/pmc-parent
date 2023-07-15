@@ -18,6 +18,7 @@
         <logback.version>0.1.5</logback.version>
         <wiremock.version>2.27.2</wiremock.version>
         <logback.contrib.version>0.1.5</logback.contrib.version>
+        <joda.time.version>2.12.5</joda.time.version>
     </properties>
 
     <dependencyManagement>
@@ -66,6 +67,11 @@
                 <groupId>ch.qos.logback.contrib</groupId>
                 <artifactId>logback-json-classic</artifactId>
                 <version>${logback.contrib.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>2.12.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
